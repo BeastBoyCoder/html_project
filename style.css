@@ -1,0 +1,76 @@
+.ED
+{
+    color: blue;
+    background-color: none;
+    height: 500px;
+    width: 500px;
+    text-decoration: none;
+}
+.ED:hover
+{
+    Color: wheat;
+    background-color: #FFA500;
+    height: 250px;
+    width: 250px;
+}
+.EX
+{
+    color: blue;
+    background-color: none;
+    height: 500px;
+    width: 500px;
+    text-decoration: none;
+}
+.EX:hover
+{
+    Color: wheat;
+    background-color: #FFA500;
+    height: 250px;
+    width: 250px;
+}
+.PR
+{
+    color: blue;
+    background-color: none;
+    height: 500px;
+    width: 500px;
+    text-decoration: none;
+}
+.PR:hover
+{
+    Color: wheat;
+    background-color: #FFA500;
+    height: 250px;
+    width: 250px;
+}
+.S
+{
+    background-color: none;
+    color: black;
+}
+.S:hover
+{
+    background-color: black;
+    color: white;
+}
+.H
+{
+    background-color: none;
+    color: none;
+    text-decoration: none;
+}
+.H:hover
+{
+    background-color: red;
+    color: green;
+}
+#ME
+{
+    background-color: none;
+    color: none;
+}
+#ME:hover
+{
+    background-color: yellow;
+    Color: #ffffff;
+}
