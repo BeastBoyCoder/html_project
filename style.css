@@ -22,10 +22,12 @@
 
 .headertext{
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
 }
 
 .headertext img{
-    width: 15rem;
+    width: 20rem;
 }
 
 #div_top_hypers {
