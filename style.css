@@ -63,20 +63,21 @@ color: indigo;
     border: 3px solid #fff;
     padding: 20px;
 }
-.float-child green{
-    width: 50%;
+#first {
+    width: 70%;
     float: left;
-    padding: 20px;
-    border: 2px solid red;
-    justify-content: center;
+    height: 300px;
+    background-color: blue;
 }
-.float-child blue{
-    width: 50%;
-    float: right;
-    padding: 20px;
-    border: 2px solid red;
-    justify-content: center;
+#second {
+    width: 30%;
+    float: left;
+    height: 300px;
+    background-color: green;
 }
-.float-child img{
+#clear {
+    clear: both;
+}
+#second img{
 border-radius: 50%;
 }
