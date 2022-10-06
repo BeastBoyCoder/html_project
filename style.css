@@ -85,4 +85,9 @@ color: indigo;
     background-color: blue;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
 }
