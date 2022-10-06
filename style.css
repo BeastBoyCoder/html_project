@@ -68,12 +68,14 @@ color: indigo;
     float: left;
     height: 350px;
     background-color: blue;
+    border-radius: .1rem;
 }
 #second {
     width: 30%;
     float: right;
     height: 350px;
     background-color: blue;
+    border-radius: .1rem;
 }
 #second img{
 border-radius: 50%;
