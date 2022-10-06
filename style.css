@@ -73,8 +73,7 @@ color: indigo;
     width: 30%;
     float: right;
     height: 350px;
-    border: 5px solid #FFFF00;
-    text-align: center;
+    background-color: blue;
 }
 #second img{
 border-radius: 50%;
