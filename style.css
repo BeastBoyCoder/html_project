@@ -106,7 +106,7 @@ input[type="submit"] {
     width: 10rem;
     border: 1px solid white;
     border-radius: 1rem;
-    background: url(icons8-send-24.png) #ff9900 no-repeat left;
+    background: url(icons8-send-24.png) #ff9900 no-repeat left padding-left: 8rem;;
     color: #fff;
     cursor: pointer;
     text-align:center;
