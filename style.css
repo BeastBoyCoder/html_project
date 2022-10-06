@@ -91,6 +91,10 @@ color: indigo;
     margin-left: auto;
     margin-right: auto;
 }
+.form-example{
+  margin: auto;
+  display: block;
+}
 .form-example input{
 width : 16rem;
 }
