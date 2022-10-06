@@ -21,9 +21,12 @@
 }
 
 .headertext{
-    background-color: lightblue;
+    background-color: rgb(0, 192, 129);
     display: flex;
     justify-content: center;
+     border: 2px solid red;
+    padding: 10px;
+    border-radius: 50px 20px;
 }
 
 .headertext img{
