@@ -82,7 +82,7 @@ color: indigo;
     float: right;
     height: 320px;
     background-color: blue;
-    border-radius: 1rem;
+    border-radius: 50%;
     text-color: white;
 }
 .second a img{
@@ -92,6 +92,7 @@ color: indigo;
     border-radius: 50%;
 }
 .second a{
-  text-decoration: none;
-  color: #008CBA;
+    text-decoration: none;
+    color: #008CBA;
+    text-align: center
 }
