@@ -80,7 +80,7 @@ color: indigo;
     border-radius: 1rem;
     text-color: white;
 }
-#second img{
+#second a img{
 border-radius: 50%;
     display : block;
     margin : auto;
