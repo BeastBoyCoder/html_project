@@ -73,11 +73,8 @@ color: indigo;
     width: 30%;
     float: right;
     height: 350px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
     border: 5px solid #FFFF00;
-    padding: 10px;
+    text-align: center;
 }
 #second img{
 border-radius: 50%;
