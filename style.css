@@ -82,6 +82,8 @@ color: indigo;
 }
 #second img{
 border-radius: 50%;
+    display : block;
+    margin : auto;
 }
 #second a{
   text-decoration: none;
