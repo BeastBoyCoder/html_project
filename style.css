@@ -116,4 +116,5 @@ input[type="Submit"] {
 input[type="Submit"]:hover {
     color: indigo;
     font-weight: bold;
+    background: rgb(246, 250, 160);
 }
