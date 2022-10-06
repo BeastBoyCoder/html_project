@@ -62,21 +62,22 @@ color: indigo;
 .float-container {
     border: 3px solid #fff;
     padding: 20px;
-    border-radius: .1rem;
+    border-radius: 1rem;
+    background-color: white;
 }
 #first {
     width: 70%;
     float: left;
     height: 350px;
     background-color: blue;
-    border-radius: .1rem;
+    border-radius: 1rem;
 }
 #second {
     width: 30%;
     float: right;
     height: 350px;
     background-color: blue;
-    border-radius: .1rem;
+    border-radius: 1rem;
     text-color: white;
 }
 #second img{
