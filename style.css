@@ -1,58 +1,3 @@
-.ED
-{
-    color: blue;
-    background-color: none;
-    height: 500px;
-    width: 500px;
-    text-decoration: none;
-}
-.ED:hover
-{
-    Color: wheat;
-    background-color: #FFA500;
-    height: 250px;
-    width: 250px;
-}
-.EX
-{
-    color: blue;
-    background-color: none;
-    height: 500px;
-    width: 500px;
-    text-decoration: none;
-}
-.EX:hover
-{
-    Color: wheat;
-    background-color: #FFA500;
-    height: 250px;
-    width: 250px;
-}
-.PR
-{
-    color: blue;
-    background-color: none;
-    height: 500px;
-    width: 500px;
-    text-decoration: none;
-}
-.PR:hover
-{
-    Color: wheat;
-    background-color: #FFA500;
-    height: 250px;
-    width: 250px;
-}
-.S
-{
-    background-color: none;
-    color: black;
-}
-.S:hover
-{
-    background-color: black;
-    color: white;
-}
 .H
 {
     background-color: none;
@@ -73,4 +18,36 @@
 {
     background-color: yellow;
     Color: #ffffff;
+}
+
+.headertext h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+}
+
+#div_top_hypers {
+    background-color:#eeeeee;
+    display:inline;
+    text-align: center;
+}
+#ul_top_hypers li{
+    display: inline;
+    color: rgb(246, 145, 4);
+    background-color: none;
+    text-decoration: none;
+    font-size: 2rem ;
+}
+
+#ul_top_hypers li:hover{
+    background-color: yellow;
+    Color: #ffffff;
+    text-decoration: none;
+}
+.a_top_hypers {
+    text-decoration: none;
+    color: rgb(52, 48, 43);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.a_top_hypers:hover{
+color: indigo;
 }
