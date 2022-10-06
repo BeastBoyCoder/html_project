@@ -1,20 +1,13 @@
-.H
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a
 {
     background-color: none;
-    color: none;
-    text-decoration: none;
-}
-.H:hover
-{
-    background-color: red;
     color: green;
 }
-#ME
-{
-    background-color: none;
-    color: none;
-}
-#ME:hover
+a:hover
 {
     background-color: yellow;
     Color: #ffffff;
@@ -66,7 +59,7 @@ color: indigo;
     background-color: white;
 }
 .first {
-    width: 70%;
+    width: 80%;
     float: left;
     height: 320px;
     background-color: blue;
@@ -79,7 +72,7 @@ color: indigo;
     margin-right: auto;
 }
 .second {
-    width: 30%;
+    width: 20%;
     float: right;
     height: 320px;
     background-color: blue;
