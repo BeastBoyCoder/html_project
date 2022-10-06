@@ -101,15 +101,17 @@ width : 16rem;
 .form-example textarea{
 width : 16rem;
 }
-input[type="submit"] {
+input[type="Submit"] {
     height: 2rem;
     width: 10rem;
     border: 1px solid white;
     border-radius: 1rem;
-    background: url(icons8-send-24.png) rgb(246, 250, 130) no-repeat left;
-    padding-left: 8rem;
-    color: #fff;
+    background: url(icons8-send-24.png) rgb(246, 250, 130) no-repeat 95% 50%;
+    color: rgb(246, 145, 4);
     cursor: pointer;
     text-align:center;
     margin: auto;
+}
+input[type="Submit"]:hover {
+    color: indigo;
 }
