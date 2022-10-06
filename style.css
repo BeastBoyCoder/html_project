@@ -109,4 +109,5 @@ input[type="submit"] {
     color: #fff;
     cursor: pointer;
     text-align:right;
+    margin: auto;
 }
