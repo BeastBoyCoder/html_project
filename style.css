@@ -5,12 +5,12 @@ body{
 a
 {
     background-color: none;
-    color: green;
+    color: #ffffff;
 }
 a:hover
 {
     background-color: yellow;
-    Color: #ffffff;
+    Color: rgb(246, 250, 130);
 }
 
 .headertext{
