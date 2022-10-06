@@ -101,3 +101,12 @@ width : 16rem;
 .form-example textarea{
 width : 16rem;
 }
+input[type="submit"] {
+    width: 230px;
+    height: 40px;
+    border: none;
+    background: url(icons8-send-24.png) #ff9900 no-repeat right;
+    color: #fff;
+    cursor: pointer;
+    text-align:right;
+}
