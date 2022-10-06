@@ -112,3 +112,22 @@ input[type="Submit"]:hover {
     font-weight: bold;
     background: url(icons8-send-24.png) rgb(246, 250, 80) no-repeat 15% 50%;
 }
+.vid-container {
+  max-width: 514px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vid-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+} 
+.vid-container iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} 
