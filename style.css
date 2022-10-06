@@ -80,13 +80,14 @@ color: indigo;
     border-radius: 1rem;
     text-color: white;
 }
-#second a img{
+.second a img{
     display : block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
 }
-#second a{
+.second p{ text-align: center }
+.second a{
   text-decoration: none;
   color: #008CBA;
 }
