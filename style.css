@@ -102,10 +102,10 @@ width : 16rem;
 width : 16rem;
 }
 input[type="submit"] {
-    width: 230px;
-    height: 40px;
+    height: 30px;
     border: none;
-    background: url(icons8-send-24.png) #ff9900 no-repeat right;
+    border-radius: 1rem;
+    background: url(icons8-send-24.png) #ff9900 no-repeat left;
     color: #fff;
     cursor: pointer;
     text-align:right;
