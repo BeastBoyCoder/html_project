@@ -128,8 +128,8 @@ input[type="Submit"]:hover {
 } 
 .vid-container iframe {
   position: absolute;
-  top: 50%;
+  top: 10px;
   right: 0;
   bottom: 0;
-  left: 50%;
+  left: 0;
 } 
