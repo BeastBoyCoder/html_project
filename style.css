@@ -86,11 +86,6 @@ color: indigo;
     margin-right: auto;
     border-radius: 50%;
 }
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
 .second a{
   text-decoration: none;
   color: #008CBA;
