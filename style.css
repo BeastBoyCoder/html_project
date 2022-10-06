@@ -107,11 +107,13 @@ input[type="Submit"] {
     border: 1px solid white;
     border-radius: 1rem;
     background: url(icons8-send-24.png) rgb(246, 250, 130) no-repeat 10% 50%;
-    color: rgb(246, 145, 4);
+    color: black;
     cursor: pointer;
     text-align:center;
     margin: auto;
+    font-weight: bold;
 }
 input[type="Submit"]:hover {
     color: indigo;
+    font-weight: bold;
 }
