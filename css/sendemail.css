@@ -12,12 +12,17 @@ body{
     align-items: center;
     height: 100vh;
 }
-.form, .info{
+.form{
     max-width: 300px;
     padding: 6px;
     border: 1px solid #140f6d;
     border-radius: .7rem;
 }
+.info{
+    max-width: 300px;
+    padding: 2px;
+}
+
 input, 
 textarea{
     width: 100%;
