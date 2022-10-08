@@ -25,6 +25,10 @@ body{
     padding: 2px;
     border: 1px solid #140f6d;
     border-radius: .7rem;
+}
+.info div{
+    justify-content: center;
+    align-items: center;
     color: #8ff33e;
     font-size: .5rem !important;
 }
