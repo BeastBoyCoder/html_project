@@ -6,28 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <div class="form">
         <h1>Send your valueable feedback to</h1>
         <h5><small>rubai.dutta@outlook.com</small></h5>
-        <form method="post">
-            <input type="text" placeholder="Name" id="name" autocomplete="off" required>
-            <input type="email" placeholder="Email" id="email" autocomplete="off" required>
-            <input type="text" placeholder="Subject" id="subject" autocomplete="off" required>
-            <textarea id="message" placeholder="Message" cols="30" rows="4" required></textarea>
-            <button id="btn">Send</button>
+        <form id="feedback_form" method="post" action="">
+            <input type="text" placeholder="Name" id="name" name="fname" autocomplete="off" required="required" />
+            <input type="email" placeholder="Email" id="email" autocomplete="off" required="required" />
+            <input type="text" placeholder="Subject" id="subject" autocomplete="off" required="required" />
+            <textarea id="message" placeholder="Message" cols="30" rows="4" required="required"></textarea>
+            <input type="submit" id="btn" value="Send"/>
         </form>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         var btn = document.getElementById('btn');
         btn.addEventListener('click', function(e){
             e.preventDefault();
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var subject = document.getElementById('subject').value;
-            var message = document.getElementById('message').value;
+            var ele = document.getElementById("feedback_form");
+            var chk_status = ele.checkValidity();
+            ele.reportValidity();
+            if (chk_status) {
+                // Post checking the validity...
+                var name = document.getElementById('name').value,
+                email = document.getElementById('email').value,
+                subject = document.getElementById('subject').value,
+                message = document.getElementById('message').value;
             var body = '<html>Sender name: ' + name + '<br/> Sender email: ' + email +'<br/> Subject: ' +
             subject + '<br/> Message: ' + message + '</html>';
             //alert(body);
@@ -40,8 +46,9 @@
             Subject : subject,
             Body : body
             }).then(
-                message => alert("Email sent successfully from " + email)
+                message => alert("Thank You!! "+ name + ". \nYour feedback sent successfully... \nfrom " + email)
             );
+            }
         })
     </script>
 </body>
