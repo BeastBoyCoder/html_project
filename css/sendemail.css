@@ -28,14 +28,14 @@ body{
     border-radius: .7rem;
     vertical-align: middle;
 }
-.info #address{
+.info span{
     /*width: 300px;
     align-items: center;
     text-align: center;
     vertical-align: middle;*/
+    display: inline-block;
     color: #8ff33e;
     font-size: .7rem !important;
-    display: table-cell;
     width: 220px;
     border: 1px solid blue;
     text-align: center;
