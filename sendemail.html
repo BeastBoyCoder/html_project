@@ -14,8 +14,9 @@
     // in order to retrieve the IP address
     $.get("https://ipinfo.io", function(response) {
             //alert(response.ip);
-        $('#country').html("Country: " + response.country);
-        $("#address").html("Location: " + response.city + ", " + response.region);
+        $("#address").html("Location: " + response.city + ", " 
+                                        + response.region + ", " 
+                                        + response.country);
         $('#ipaddress').val(response.ip);
         }, "json")         
         // "json" shows that data will be fetched in json format
@@ -35,7 +36,6 @@
     </div>
     <div class="info">
         <span id="address"></span>
-        <span id="country"></span>
     </div>
     <script>
         var btn = document.getElementById('btn');

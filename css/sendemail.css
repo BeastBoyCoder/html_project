@@ -21,6 +21,7 @@ body{
 .info{
     max-width: 300px;
     padding: 2px;
+    border: 1px solid #140f6d;
     color: #8ff33e;
     font-size: .5rem !important;
 }
