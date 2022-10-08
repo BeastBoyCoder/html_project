@@ -16,7 +16,6 @@
         <form id="feedback_form" method="post" action="">
             <input type="text" placeholder="Name" id="name" name="fname" autocomplete="off" required="required" />
             <input type="email" placeholder="Email" id="email" autocomplete="off" required="required" />
-            <input type="text" placeholder="Subject" id="subject" autocomplete="off" required="required" />
             <textarea id="message" placeholder="Message" cols="30" rows="4" required="required"></textarea>
             <input type="submit" id="btn" value="Send"/>
         </form>
@@ -32,7 +31,7 @@
                 // Post checking the validity...
                 var name = document.getElementById('name').value,
                 email = document.getElementById('email').value,
-                subject = document.getElementById('subject').value,
+                subject = "Message from " + name,
                 message = document.getElementById('message').value;
             var body = '<html>Sender name: ' + name + '<br/> Sender email: ' + email +'<br/> Subject: ' +
             subject + '<br/> Message: ' + message + '</html>';
