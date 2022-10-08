@@ -22,9 +22,6 @@ body{
     justify-content: center;
     align-items: center;
     max-width: 300px;
-    padding: 2px;
-    border: 1px solid #140f6d;
-    background-color: rgb(69, 69, 248);
     border-radius: .7rem;
     vertical-align: middle;
     text-align: center;
