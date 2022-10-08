@@ -26,7 +26,8 @@
     // this will communicate with the ipify servers
     // in order to retrieve the IP address
     $.get("https://ipinfo.io", function(response) {
-            alert(response.ip);
+            //alert(response.ip);
+        $('#gfg').val(response.ip);
         }, "json")
          
         // "json" shows that data will be fetched in json format
