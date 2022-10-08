@@ -19,13 +19,15 @@ body{
     border-radius: .7rem;
 }
 .info{
+    justify-content: center;
+    align-items: center;
     max-width: 300px;
     padding: 2px;
     border: 1px solid #140f6d;
+    border-radius: .7rem;
     color: #8ff33e;
     font-size: .5rem !important;
 }
-
 input, 
 textarea{
     width: 100%;
