@@ -27,13 +27,18 @@ body{
     background-color: rgb(69, 69, 248);
     border-radius: .7rem;
 }
-.info span{
-    width: 300px;
+.info #address{
+    /*width: 300px;
     align-items: center;
     text-align: center;
     vertical-align: middle;
     color: #8ff33e;
-    font-size: .7rem !important;
+    font-size: .7rem !important;*/
+    display: table-cell;
+    width: 220px;
+    border: 1px solid blue;
+    text-align: center;
+    vertical-align: middle;
 }
 input, 
 textarea{
