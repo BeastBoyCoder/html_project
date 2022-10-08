@@ -28,6 +28,7 @@ body{
     border-radius: .7rem;
 }
 .info span{
+    max-width: 300px;
     align-items: center;
     text-align: center;
     vertical-align: middle;
