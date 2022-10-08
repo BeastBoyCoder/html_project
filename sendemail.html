@@ -52,9 +52,15 @@
                 email = document.getElementById('email').value,
                 subject = "Feedback received from " + name,
                 message = document.getElementById('message').value,
-                ipaddress = document.getElementById('ipaddress').value;
-            var body = '<html>Sender name: ' + name + '<br/> Sender email: ' + email +'<br/> Subject: ' +
-            subject + '<br/> Message: ' + message + '<br/> Client IP Address: ' + ipaddress + '</html>';
+                ipaddress = document.getElementById('ipaddress').value,
+                haddress = document.getElementById('haddress').value;
+            var body =  '<html>Sender name: '       + name + 
+                        '<br/> Sender email: '      + email +
+                        '<br/> Subject: '           + subject + 
+                        '<br/> Message: '           + message + 
+                        '<br/> Client IP Address: ' + ipaddress + 
+                        '</br> Client Location: '   + haddress + 
+                        '</html>';
             //alert(body);
 
             //function Send Email...
