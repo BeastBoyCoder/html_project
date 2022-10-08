@@ -27,19 +27,9 @@ body{
     background-color: rgb(69, 69, 248);
     border-radius: .7rem;
     vertical-align: middle;
-}
-.info span{
-    /*width: 300px;
-    align-items: center;
     text-align: center;
-    vertical-align: middle;*/
-    display: inline-block;
+    font-size: .8rem !important;
     color: #8ff33e;
-    font-size: .7rem !important;
-    width: 220px;
-    border: 1px solid blue;
-    text-align: center;
-    vertical-align: middle;
 }
 input, 
 textarea{
