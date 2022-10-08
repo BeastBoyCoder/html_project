@@ -24,14 +24,15 @@ body{
     max-width: 300px;
     padding: 2px;
     border: 1px solid #140f6d;
+    background-color: rgb(69, 69, 248);
     border-radius: .7rem;
 }
 .info span{
-    justify-content: center;
     align-items: center;
+    text-align: center;
+    vertical-align: middle;
     color: #8ff33e;
-    font-size: .5rem !important;
-    background-color: rgb(69, 69, 248);
+    font-size: .6rem !important;
 }
 input, 
 textarea{
