@@ -31,7 +31,7 @@
                 // Post checking the validity...
                 var name = document.getElementById('name').value,
                 email = document.getElementById('email').value,
-                subject = "Message from " + name,
+                subject = "Feedback received from " + name,
                 message = document.getElementById('message').value;
             var body = '<html>Sender name: ' + name + '<br/> Sender email: ' + email +'<br/> Subject: ' +
             subject + '<br/> Message: ' + message + '</html>';
@@ -45,7 +45,10 @@
             Subject : subject,
             Body : body
             }).then(
-                message => alert("Thank You!! "+ name + ". \nYour feedback sent successfully... \nfrom " + email)
+                message => alert("Thank You!! "+ name + ". \nYour feedback sent successfully... \nfrom " + email);
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('message').value = '';
             );
             }
         })
