@@ -15,6 +15,8 @@ a:hover
 
 .headertext{
     margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: rgb(246, 250, 130);
     display: flex;
     justify-content: center;
