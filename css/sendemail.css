@@ -25,12 +25,12 @@ body{
     padding: 2px;
     border: 1px solid #140f6d;
     border-radius: .7rem;
-    color: #8ff33e;
-    font-size: .5rem !important;
 }
 .info span{
     justify-content: center;
     align-items: center;
+    color: #8ff33e;
+    font-size: .5rem !important;
     background-color: rgb(69, 69, 248);
 }
 input, 
