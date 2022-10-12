@@ -3,13 +3,11 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-a
-{
+a{
     background-color: none;
     color: #ffffff;
 }
-a:hover
-{
+a:hover, a.hover_effect{
     background-color: indigo;
     Color: rgb(246, 250, 130);
 }
@@ -43,7 +41,7 @@ a:hover
     font-size: 2rem ;
 }
 
-#ul_top_hypers li:hover{
+#ul_top_hypers li:hover, li.hover_effect{
     background-color: rgb(246, 250, 130);
     Color: #ffffff;
     text-decoration: none;
@@ -52,7 +50,7 @@ a:hover
     text-decoration: none;
     color: rgb(52, 48, 43);
 }
-.a_top_hypers:hover{
+.a_top_hypers:hover, .a_top_hypers.hover_effect{
     background-color: indigo;
     Color: rgb(246, 250, 130);
 }
@@ -149,7 +147,7 @@ input[type="Submit"]:hover {
   border-radius: 0 5px 5px 0;
 }
 
-#mySidenav a:hover {
+#mySidenav a:hover, a.hover_effect {
   left: 0;
 }
 #master {
