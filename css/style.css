@@ -2,7 +2,8 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to bottom, #f6fa82, #d5ffab, #c4ffd2, #c8ffee, #dffffc);}
+    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+}
 a{
     background-color: none;
     color: #ffffff;
