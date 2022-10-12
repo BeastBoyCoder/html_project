@@ -14,7 +14,7 @@
     // in order to retrieve the IP address
     $.get("https://ipinfo.io", function(response) {
             //alert(response.ip);
-        $("#address").html("Your Location: " + response.city + ", " 
+        $("#address").html("Your Location* : " + response.city + ", " 
                                         + response.region + ", " 
                                         + response.country);
         $("#haddress").val(response.city + ", " 
@@ -59,7 +59,7 @@
                         '<br/> Subject: '           + subject + 
                         '<br/> Message: '           + message + 
                         '<br/> Client IP Address: ' + ipaddress + 
-                        '</br> Client Location: '   + haddress + 
+                        '</br> Client Location*: '   + haddress + 
                         '</html>';
             //alert(body);
 
