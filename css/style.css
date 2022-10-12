@@ -159,6 +159,10 @@ input[type="Submit"]:hover {
 #master img{
     transition: transform .5s;
 }
-#master img:hover{
+#master img:hover, img.hover_effect{
     transform: scale(1.2);
+}
+.hover {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;           
 }
