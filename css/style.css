@@ -72,7 +72,8 @@ a:hover, a.hover_effect{
     width: 65%;
     float: left;
     height: 320px;
-    background-color: rgb(20, 15, 109);
+    /*background-color: rgb(153, 150, 216);*/
+    background-image: linear-gradient(to left, #79a7d8, #5382c1, #355ca8, #1f378c, #140f6d);
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
