@@ -174,7 +174,8 @@ input[type="Submit"]:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to top, #79a7d8, #140f6d);
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(45,51,253,1) 100%); 
         line-height: 2;
         text-align: center;
         color: #042E64;
