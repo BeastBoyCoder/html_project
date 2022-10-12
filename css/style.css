@@ -141,7 +141,7 @@ input[type="Submit"]:hover {
   position: absolute;
   left: -90px;
   transition: 0.3s;
-  padding: 15px;
+  padding: 25px;
   width: 80px;
   text-decoration: none;
   font-size: 0.4rem;
