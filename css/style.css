@@ -57,7 +57,7 @@ a:hover, a.hover_effect{
 
 @media(hover: hover) and (pointer: fine) {
     a_top_hypers:hover {
-        background: yellow;
+        background: green;
     }
 }
 
