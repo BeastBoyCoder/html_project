@@ -156,3 +156,9 @@ input[type="Submit"]:hover {
   top: 20rem;
   background-color: #000
 }
+#master img{
+    transition: transform .5s;
+}
+#master img:hover{
+    transform: scale(1.5);
+}
