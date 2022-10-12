@@ -51,7 +51,6 @@ a:hover
 .a_top_hypers {
     text-decoration: none;
     color: rgb(52, 48, 43);
-    font-family: 'Poppins', sans-serif;
 }
 .a_top_hypers:hover{
     background-color: indigo;
@@ -85,7 +84,6 @@ a:hover
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     color: white;
-    font-family: 'Poppins', sans-serif;
     display : block;
     margin-left: auto;
     margin-right: auto;
