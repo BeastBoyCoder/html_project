@@ -151,6 +151,7 @@ input[type="Submit"]:hover {
 
 #mySidenav a:hover {
   left: 0;
+  transform: scale(1.2);
 }
 #master {
   top: 20rem;
