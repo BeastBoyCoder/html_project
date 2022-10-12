@@ -188,3 +188,8 @@ input[type="Submit"]:hover {
     border-radius: 20px;
     border: transparent;
   }
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
