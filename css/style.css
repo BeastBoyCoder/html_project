@@ -54,6 +54,13 @@ a:hover, a.hover_effect{
     background-color: indigo;
     Color: rgb(246, 250, 130);
 }
+
+@media(hover: hover) and (pointer: fine) {
+    a_top_hypers:hover {
+        background: yellow;
+    }
+}
+
 .float-container {
     border: 3px solid white;
     padding: 20px;
