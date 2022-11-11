@@ -45,6 +45,11 @@ textarea{
     border: none;
     border-radius: .3rem;
     background: #8ff33e;
+    transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+}
+#btn:hover{
+    background: #54ac0c;
 }
 h1, h5{
     font-size: 1rem;
