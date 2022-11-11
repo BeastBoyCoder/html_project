@@ -143,6 +143,10 @@ input[type="Submit"]:hover {
   bottom: 0;
   left: 0;
 } 
+.divtext{
+    color: white;
+}
+
 
 #mySidenav a {
   position: absolute;
