@@ -6,6 +6,8 @@ body{
 a{
     background-color: none;
     color: #ffffff;
+    transition: all .4s ease;
+	-webkit-transition: all .4s ease;
 }
 a:hover, a.hover_effect{
     background-color: indigo;
