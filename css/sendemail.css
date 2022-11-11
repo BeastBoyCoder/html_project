@@ -50,6 +50,8 @@ textarea{
 }
 #btn:hover{
     background: #54ac0c;
+    color: #fff;
+    font-weight: 800;
 }
 h1, h5{
     font-size: 1rem;
